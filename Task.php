@@ -8,9 +8,18 @@
 
 class Task
 {
-    public $description = 'Learn php';
+    public $title;
+    public $description;
+    public $completed = false;
+
+    public function __construct($title, $description)
+    {
+        $this->description = $description;
+        $this->title = $title;
+    }
+
+    public function complete()
+    {
+        $this->completed = true;
+    }
 }
-
-$task = new Task();
-
-var_dump($task->description);
