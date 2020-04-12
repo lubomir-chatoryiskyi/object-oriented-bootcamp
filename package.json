@@ -4,10 +4,7 @@
   "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "repository": "git@github.com:lubomir-chatoryiskyi/test-github-packages.git",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
