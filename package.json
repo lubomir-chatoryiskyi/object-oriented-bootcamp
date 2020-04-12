@@ -1,6 +1,6 @@
 {
   "name": "@lubomir-chatoryiskyi/test-github-packages",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "repository": "git@github.com:lubomir-chatoryiskyi/test-github-packages.git",
   "scripts": {
